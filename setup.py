@@ -38,18 +38,20 @@ setuptools.setup(
     },
     scripts=[],
     install_requires=[
+        'hmmlearn',
+        'crepe',
         'absl-py',
         'cloudml-hypertune',
-        'crepe>=0.0.11',
+        #'crepe>=0.0.11',
         'future',
         'gin-config>=0.3.0',
         'google-cloud-storage',
         'httplib2>=0.20.2',   # temporary fix for apache-beam import
-        'librosa',
+        #'librosa',
         'pydub',
         'mir_eval',
         'note_seq',
-        'numba < 0.50',  # temporary fix for librosa import
+        #'numba < 0.50',  # temporary fix for librosa import
         'numpy',
         'scipy',
         'six',

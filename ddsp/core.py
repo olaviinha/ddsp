@@ -44,7 +44,7 @@ def make_iterable(x):
     # Wrap in list so you don't iterate over the batch.
     return [x]
   else:
-    return x if isinstance(x, collections.Iterable) else [x]
+    return x if isinstance(x, collections.abc.Iterable) else [x]
 
 
 def to_dict(x, keys):
