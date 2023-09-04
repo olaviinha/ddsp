@@ -59,8 +59,8 @@ setuptools.setup(
         'tensorflow-addons',
         'tensorflowjs',
         'tensorflow-probability',
-        # TODO(adarob): Switch to tensorflow_datasets once includes nsynth 2.3.
-        'tfds-nightly',
+        'tensorflow-datasets',
+        #'tfds-nightly',
         'tflite_support'
     ],
     extras_require={
