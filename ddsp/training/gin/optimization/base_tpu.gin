@@ -1,0 +1,5 @@
+# -*-Python-*-
+include 'optimization/base.gin'
+
+# Larger batch size for TPU.
+batch_size = 64  # (4x2, 4 per a core)
