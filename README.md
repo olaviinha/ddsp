@@ -1,6 +1,6 @@
-# DDSP: Differentiable Digital Signal Processing for Colab
+# DDSP 1.9.0: Differentiable Digital Signal Processing for Colab
 
-Google AI Magenta DDSP v1.9.0 for Colab, as the [original repository](https://github.com/magenta/ddsp) is focusing on a VST plugin and is incompatible with Colab.
+Google AI [Magenta](https://magenta.tensorflow.org/) DDSP 1.9.0 for Colab, as the [original repository](https://github.com/magenta/ddsp) is focusing on [different stuff](https://github.com/magenta/ddsp/releases/tag/v3.1.0) that is incompatible with Colab.
 
 ```
 %cd /content
