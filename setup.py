@@ -55,10 +55,10 @@ setuptools.setup(
         'numpy',
         'scipy',
         'six',
-        'tensorflow',
-        'tensorflow-addons',
+        'tensorflow==2.13.0',
+        'tensorflow-addons==0.22.0',
         'tensorflowjs',
-        'tensorflow-probability',
+        'tensorflow-probability==0.20.0',
         'tensorflow-datasets',
         #'tfds-nightly',
         'tflite_support'
